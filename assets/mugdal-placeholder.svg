@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6a84f"/><stop offset=".55" stop-color="#8b5a1f"/><stop offset="1" stop-color="#e5c274"/></linearGradient>
+    <radialGradient id="h"><stop stop-color="#f2d68a"/><stop offset="1" stop-color="#80521b"/></radialGradient>
+    <filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="#0d0d0d"/>
+  <circle cx="400" cy="430" r="270" fill="#171717" stroke="#2c2c2c" stroke-width="3"/>
+  <g filter="url(#s)" transform="rotate(-7 400 500)">
+    <path d="M380 110 C500 80 620 145 635 250 C650 355 565 430 470 447 L440 468 L430 830 C430 880 370 880 370 830 L360 465 L330 445 C230 420 155 345 170 245 C185 140 275 100 380 110Z" fill="url(#g)" stroke="#5e3a12" stroke-width="12"/>
+    <ellipse cx="390" cy="250" rx="175" ry="125" fill="url(#h)" stroke="#5e3a12" stroke-width="10"/>
+    <path d="M250 250 Q390 175 530 250" fill="none" stroke="#f3dc9d" stroke-width="18" opacity=".65"/>
+    <rect x="350" y="445" width="80" height="390" rx="35" fill="url(#g)" stroke="#5e3a12" stroke-width="10"/>
+    <ellipse cx="390" cy="835" rx="60" ry="35" fill="#6b4217"/>
+  </g>
+  <text x="400" y="935" fill="#f1d79a" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" letter-spacing="5">MUGDAL</text>
+</svg>
